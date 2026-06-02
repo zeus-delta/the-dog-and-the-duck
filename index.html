@@ -3,9 +3,11 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>The Dog & Duck – Home</title>
+    <title>The Dog & Duck – Southampton</title>
 
+    <!-- FONTS -->
     <link href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:wght@400;600;700&family=Inter:wght@300;400;500;600&display=swap" rel="stylesheet">
+
     <link rel="stylesheet" href="style.css">
 </head>
 
@@ -16,26 +18,50 @@
     <div class="nav-inner">
         <div class="logo">The Dog & Duck</div>
         <ul class="nav-links">
-            <li><a href="index.html" class="active">Home</a></li>
+            <li><a href="#home">Home</a></li>
+            <li><a href="#about">About</a></li>
             <li><a href="menu.html">Menu</a></li>
+            <li><a href="#drinks">Drinks</a></li>
+            <li><a href="#specials">Specials</a></li>
             <li><a href="gallery.html">Gallery</a></li>
+            <li><a href="#hours">Hours</a></li>
+            <li><a href="#contact">Visit</a></li>
         </ul>
     </div>
 </nav>
 
 <!-- HERO -->
-<header class="hero">
+<header id="home" class="hero">
+    <div class="hero-overlay"></div>
     <div class="hero-content">
-        <h1>Welcome to The Dog & Duck</h1>
-        <p>Traditional pub classics, cosy atmosphere, and great company.</p>
-        <a href="menu.html" class="btn">View Menu</a>
+        <h1>The Dog & Duck</h1>
+        <p>Traditional English & Polish Pub • 108 Shirley Road, Southampton</p>
+        <a href="menu.html" class="btn btn-primary">Explore Our Menu</a>
     </div>
 </header>
 
+<!-- ABOUT -->
+<section id="about" class="section section-split">
+    <div class="split-text">
+        <h2>Welcome to The Dog & Duck</h2>
+        <p>
+            A warm, traditional English pub in the heart of Shirley.  
+            Known for hearty homemade food, friendly atmosphere, and a blend of English and Polish flavours.
+        </p>
+        <p>
+            Whether you're here for a Sunday roast, a pint with friends, or a taste of authentic Polish cuisine,
+            we make everyone feel at home.
+        </p>
+    </div>
+
+    <div class="split-image">
+        <img src="images/gallery-dessert.jpg" alt="Pub Interior">
+    </div>
+</section>
+
 <!-- SIGNATURE DISHES -->
-<section class="signature-section">
-    <h2>Signature Dishes</h2>
-    <p class="section-subtitle">Our most loved plates, served fresh every day.</p>
+<section id="menu-preview" class="section section-light">
+    <h2 class="center">Signature Dishes</h2>
 
     <div class="card-grid">
 
@@ -46,13 +72,114 @@
             <p>Beef, pork, chicken or vegetarian — served with all the trimmings.</p>
         </div>
 
-        <!-- SCHNITZEL -->
+        <!-- PIEROGI (still placeholder unless you upload one) -->
         <div class="food-card">
-            <img src="images/gallery-schnitzel.jpg" alt="Schnitzel Dish">
-            <h3>Schnitzel</h3>
-            <p>Crispy breaded schnitzel served with mash, fried egg and fresh sides.</p>
+            <img src="images/pierogi-placeholder.jpg" alt="Pierogi">
+            <h3>Pierogi</h3>
+            <p>Traditional Polish dumplings handmade with care.</p>
         </div>
 
+        <!-- SCHNITZEL -->
+        <div class="food-card">
+            <img src="images/gallery-schnitzel.jpg" alt="Pork Schnitzel">
+            <h3>Pork Schnitzel</h3>
+            <p>Crispy, golden and served with potatoes and salad.</p>
+        </div>
+
+    </div>
+
+    <div class="center">
+        <a href="menu.html" class="btn btn-outline">View Full Menu</a>
+    </div>
+</section>
+
+<!-- DRINKS -->
+<section id="drinks" class="section section-panel">
+    <h2 class="center">Drinks</h2>
+
+    <div class="card-grid">
+        <div class="drink-card">
+            <img src="images/gallery-shots.jpg" alt="Drinks">
+            <h3>Cask Ales</h3>
+            <p>Rotating selection of local and regional favourites.</p>
+        </div>
+
+        <div class="drink-card">
+            <img src="images/wine-placeholder.jpg" alt="">
+            <h3>Wines</h3>
+            <p>Red, white and rosé — carefully selected for every taste.</p>
+        </div>
+
+        <div class="drink-card">
+            <img src="images/spirits-placeholder.jpg" alt="">
+            <h3>Spirits</h3>
+            <p>Gin, vodka, whisky and more behind the bar.</p>
+        </div>
+    </div>
+</section>
+
+<!-- SPECIALS -->
+<section id="specials" class="section section-light">
+    <h2 class="center">Specials & Events</h2>
+
+    <div class="specials-grid">
+        <div class="special-item">
+            <h3>Sunday Roast</h3>
+            <p>Booking recommended — often sells out.</p>
+        </div>
+
+        <div class="special-item">
+            <h3>Polish Specials</h3>
+            <p>Rotating dishes such as bigos, golabki and more.</p>
+        </div>
+
+        <div class="special-item">
+            <h3>Live Sports</h3>
+            <p>Selected matches shown — ask staff for details.</p>
+        </div>
+    </div>
+</section>
+
+<!-- MINI GALLERY PREVIEW -->
+<section class="section section-gallery-preview">
+    <div class="gallery-row">
+        <img src="images/gallery-roast.jpg" alt="">
+        <img src="images/gallery-schnitzel.jpg" alt="">
+        <img src="images/gallery-dessert.jpg" alt="">
+    </div>
+
+    <div class="center">
+        <a href="gallery.html" class="btn btn-outline">View Full Gallery</a>
+    </div>
+</section>
+
+<!-- HOURS -->
+<section id="hours" class="section section-panel">
+    <h2 class="center">Opening Hours</h2>
+
+    <ul class="hours-list">
+        <li><span>Monday – Tuesday</span><span>16:00 – 23:00</span></li>
+        <li><span>Wednesday – Thursday</span><span>14:00 – 23:30</span></li>
+        <li><span>Friday – Saturday</span><span>10:00 – 00:30</span></li>
+        <li><span>Sunday</span><span>10:00 – 21:00</span></li>
+    </ul>
+</section>
+
+<!-- CONTACT -->
+<section id="contact" class="section section-light contact-layout">
+    <div class="contact-info">
+        <h2>Visit Us</h2>
+        <p><strong>Address:</strong><br>108 Shirley Rd, Southampton SO15 3FD</p>
+        <p><strong>Phone:</strong><br><a href="tel:07724736474">07724 736474</a></p>
+        <p><strong>Email:</strong><br>dogandduckpub@gmail.com</p>
+    </div>
+
+    <div class="contact-map">
+        <iframe 
+            src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2515.624070943367!2d-1.4256702032104493!3d50.91217170000001!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x487476a27fd3cab1%3A0xc40f3df918e5f9ad!2sThe%20Dog%20%26%20Duck!5e0!3m2!1sen!2suk!4v1780433157485!5m2!1sen!2suk"
+            width="100%" height="100%" style="border:0;" allowfullscreen="" loading="lazy"
+            referrerpolicy="no-referrer-when-downgrade">
+        </iframe>
     </div>
 </section>
 
