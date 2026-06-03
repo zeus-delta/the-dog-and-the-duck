@@ -575,3 +575,14 @@ section h1, section h2 {
     }
 }
 
+@media (max-width: 1024px) {
+    .contact-layout {
+        flex-direction: column;
+        text-align: center;
+        gap: 20px;
+    }
+
+    .map-container {
+        width: 100%;
+    }
+}
