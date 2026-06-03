@@ -82,6 +82,16 @@ h1, h2, h3 {
     color: #d9b56c;
 }
 
+/* Smooth transitions for navbar + text */
+.navbar {
+    transition: background 0.3s ease, box-shadow 0.3s ease;
+}
+
+.navbar .nav-links a,
+.navbar .logo {
+    transition: color 0.3s ease;
+}
+
 /* --------------------------------------------------
    HERO SECTION
 -------------------------------------------------- */
