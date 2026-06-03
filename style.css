@@ -349,3 +349,20 @@ h1, h2, h3 {
     from { opacity: 0; transform: translateY(20px); }
     to { opacity: 1; transform: translateY(0); }
 }
+
+/* ========================= */
+  MENU PAGE IMAGE STYLING   
+/* ========================= */
+
+.menu-photos {
+    max-width: 900px;
+    margin: 40px auto;
+    padding: 0 20px;
+}
+
+.menu-photos img {
+    width: 100%;
+    margin-bottom: 30px;
+    border-radius: 8px;
+    box-shadow: 0 4px 20px rgba(0,0,0,0.15);
+}
