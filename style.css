@@ -109,6 +109,7 @@ h1, h2, h3 {
     max-width: 700px;
     padding: 20px;
     animation: fadeIn 1.2s ease-out;
+    text-shadow: 0 0 14px rgba(0,0,0,0.9);
 }
 
 .hero-content h1 {
