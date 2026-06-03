@@ -567,3 +567,11 @@ section h1, section h2 {
     height: 100%;
     border: 0;
 }
+
+@media (max-width: 768px) {
+    .contact-layout {
+        flex-direction: column;
+        gap: 20px;
+    }
+}
+
