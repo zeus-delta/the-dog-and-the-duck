@@ -105,7 +105,7 @@ h1, h2, h3 {
 .hero-content {
     position: relative;
     text-align: center;
-    color: #f3e9d4;
+    color: #fff;
     max-width: 700px;
     padding: 20px;
     animation: fadeIn 1.2s ease-out;
