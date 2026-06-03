@@ -462,3 +462,42 @@ section h1, section h2 {
 .book-btn:hover {
     background: #c7a257;
 }
+
+/* MOBILE FIXES */
+@media (max-width: 768px) {
+
+    /* Stack navbar items vertically */
+    .nav-links {
+        display: flex;
+        flex-direction: column;
+        gap: 10px;
+        background: #2f4f3a;
+        padding: 20px;
+        position: absolute;
+        top: 60px;
+        right: 0;
+        width: 100%;
+        display: none; /* hidden by default */
+    }
+
+    /* Show menu when active */
+    .nav-links.active {
+        display: flex;
+    }
+
+    /* Make navbar smaller */
+    .navbar {
+        padding: 10px 20px;
+    }
+
+    /* Logo smaller */
+    .logo {
+        font-size: 1.3rem;
+    }
+
+    /* Book button full width */
+    .book-btn {
+        width: 100%;
+        text-align: center;
+    }
+}
