@@ -351,6 +351,11 @@ h1, h2, h3 {
     margin-top: 40px;
 }
 
+/* Push page content down so navbar doesn't cover titles */
+.page-top {
+    padding-top: 120px;
+}
+
 /* --------------------------------------------------
    ANIMATIONS
 -------------------------------------------------- */
